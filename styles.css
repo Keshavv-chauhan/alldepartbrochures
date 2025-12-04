@@ -564,7 +564,6 @@ body {
     color: var(--color-text-muted);
 }
 
-.file-size,
 .file-type {
     display: flex;
     align-items: center;
