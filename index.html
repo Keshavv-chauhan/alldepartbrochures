@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Brochures - Gurugram University</title>
+    <meta name="description" content="Access placement brochures for all departments at Gurugram University. Professional resources for recruiters and placement officers.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <img src="logo.png" alt="Gurugram University Logo" class="header-logo">
+                    <div class="header-text">
+                        <h1 class="header-title">Placement Brochures</h1>
+                        <p class="header-subtitle">Gurugram University - Professional Resources for Recruiters</p>
+                    </div>
+                </div>
+                <div class="header-contact">
+                    <p class="contact-info">
+                        <span class="contact-label">Placement Office:</span>
+                        <a href="mailto:placements@ggu.ac.in" class="contact-email">tpooffice@gurugramuniversity.ac.in</a>
+                    </p>
+                    <p class="contact-phone">+91-124-266-5500</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main" role="main">
+        <div class="container">
+            <!-- Controls Section -->
+            <section class="controls" aria-labelledby="controls-title">
+                <h2 id="controls-title" class="visually-hidden">Search and View Controls</h2>
+                
+                <div class="controls-row">
+                    <!-- Search Input -->
+                    <div class="search-container">
+                        <label for="search-input" class="visually-hidden">Search departments</label>
+                        <input 
+                            type="search" 
+                            id="search-input" 
+                            class="search-input" 
+                            placeholder="Search departments..."
+                            autocomplete="off"
+                            aria-describedby="search-help"
+                        >
+                        <span id="search-help" class="visually-hidden">Type to filter departments by name</span>
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- View Toggle -->
+                    <div class="view-toggle" role="group" aria-labelledby="view-toggle-label">
+                        <span id="view-toggle-label" class="view-toggle-label">View:</span>
+                        <button 
+                            type="button" 
+                            class="view-btn active" 
+                            data-view="grid"
+                            aria-pressed="true"
+                            aria-describedby="grid-view-desc"
+                        >
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/>
+                                <rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/>
+                                <rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/>
+                                <rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            Grid
+                        </button>
+                        <button 
+                            type="button" 
+                            class="view-btn" 
+                            data-view="list"
+                            aria-pressed="false"
+                            aria-describedby="list-view-desc"
+                        >
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <line x1="8" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="8" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="8" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="3" y1="6" x2="3.01" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="3" y1="12" x2="3.01" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <line x1="3" y1="18" x2="3.01" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            List
+                        </button>
+                        <span id="grid-view-desc" class="visually-hidden">Grid view - departments displayed in a card layout</span>
+                        <span id="list-view-desc" class="visually-hidden">List view - departments displayed in a vertical list</span>
+                    </div>
+                </div>
+
+                <!-- Download All Button -->
+                <div class="download-all-container">
+                    <a 
+                        href="pdfs/all-brochures.zip" 
+                        class="download-all-btn"
+                        download
+                        aria-describedby="download-all-desc"
+                    >
+                        <svg class="download-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Download All Brochures (ZIP)
+                    </a>
+                    <span id="download-all-desc" class="visually-hidden">Download all department brochures as a PDF file</span>
+                    <script>
+                    (function(){
+                        var btn = document.querySelector('.download-all-btn');
+                        if (!btn) return;
+                        btn.href = 'pdfs/All_Dept_brouchure.pdf';
+                        btn.setAttribute('download', 'All_Dept_brouchure.pdf');
+                        btn.setAttribute('aria-describedby', 'download-all-desc');
+                    })();
+                    </script>
+                </div>
+            </section>
+
+            <!-- Department Brochures Grid -->
+            <section class="brochures-section" aria-labelledby="brochures-title">
+                <h2 id="brochures-title" class="section-title">Department Brochures</h2>
+                
+                <div class="brochures-grid" id="brochures-grid" role="grid" aria-label="Department brochures">
+                    <!-- Department buttons will be dynamically generated by JavaScript -->
+                </div>
+
+                <!-- No Results Message -->
+                <div id="no-results" class="no-results" style="display: none;" role="alert" aria-live="polite">
+                    <svg class="no-results-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                        <path d="M16 16L20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <h3>No departments found</h3>
+                    <p>Try adjusting your search terms or browse all departments.</p>
+                    <button type="button" class="clear-search-btn" onclick="clearSearch()">Clear Search</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Gurugram University</h3>
+                    <address class="footer-address">
+                        Sector- 51, Gurugram, Haryana 122505, India<br>
+                        
+                    </address>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Placement Office</h3>
+                    <p>
+                        Email: <a href="mailto:placements@ggu.ac.in">tpooffice@gurugramuniversity.ac.in</a><br>
+                        Phone: +91-124-266-5501
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://gurugramuniversity.ac.in/" target="_blank" rel="noopener noreferrer">University Website</a></li>
+                             </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Gurugram University. All rights reserved.</p>
+                <p class="last-updated">Last updated: <time datetime="2025-12-04">December 4, 2025</time></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-content">
+            <span class="toast-message"></span>
+            <button type="button" class="toast-close" aria-label="Close notification">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
