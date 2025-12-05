@@ -9,32 +9,32 @@ const departments = [
         name: 'Department of Bioscience',
         abbreviation: 'BIO',
         description: 'Advanced research in biological sciences, biotechnology, and life sciences.',
-        pdfUrl: 'pdfs/bioscience-brochure.pdf.pdf',
-        fileName: 'bioscience-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Biosciences-brochure.pdf',
+        fileName: 'Biosciences-brochure.pdf',
         fileSize: '2.4 MB'
     },
     {
         name: 'Department of Chemistry',
         abbreviation: 'CHE',
         description: 'Comprehensive programs in organic, inorganic, and physical chemistry.',
-        pdfUrl: 'pdfs/chemistry-brochure.pdf.pdf',
-        fileName: 'chemistry-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Chemistry-brochure.pdf',
+        fileName: 'Chemistry-brochure.pdf',
         fileSize: '2.8 MB'
     },
     {
         name: 'Department of Commerce',
         abbreviation: 'COM',
         description: 'Business studies, accounting, finance, and commercial applications.',
-        pdfUrl: 'pdfs/commerce-brochure.pdf',
-        fileName: 'commerce-brochure.pdf',
+        pdfUrl: 'pdfs/Commerce-brochure.pdf',
+        fileName: 'Commerce-brochure.pdf',
         fileSize: '2.1 MB'
     },
     {
         name: 'Department of Economics',
         abbreviation: 'ECO',
         description: 'Economic theory, policy analysis, and applied economics programs.',
-        pdfUrl: 'pdfs/economics-brochure.pdf.pdf',
-        fileName: 'economics-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Economics-brochure.pdf',
+        fileName: 'Economics-brochure.pdf',
         fileSize: '2.3 MB'
     },
     {
@@ -49,64 +49,64 @@ const departments = [
         name: 'Department of Engineering and Technology',
         abbreviation: 'ENG',
         description: 'Computer science, electrical, mechanical, and civil engineering programs.',
-        pdfUrl: 'pdfs/engineering-brochure.pdf.pdf',
-        fileName: 'engineering-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Engg And Tech-brochure.pdf',
+        fileName: 'Engg And Tech-brochure.pdf',
         fileSize: '3.2 MB'
     },
     {
         name: 'Department of English & Foreign Languages',
         abbreviation: 'EFL',
         description: 'Literature, linguistics, translation studies, and language programs.',
-        pdfUrl: 'pdfs/english-languages-brochure.pdf.pdf',
-        fileName: 'english-languages-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/English-Brochure.pdf',
+        fileName: 'English-Brochure.pdf',
         fileSize: '2.5 MB'
     },
     {
         name: 'Department of Law',
         abbreviation: 'LAW',
         description: 'Legal studies, jurisprudence, and professional law programs.',
-        pdfUrl: 'pdfs/law-brochure.pdf.pdf',
-        fileName: 'law-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Law-brochure.pdf',
+        fileName: 'Law-brochure.pdf',
         fileSize: '2.9 MB'
     },
     {
         name: 'Department of Management',
         abbreviation: 'MGT',
         description: 'Business administration, leadership, and strategic management programs.',
-        pdfUrl: 'pdfs/management-brochure.pdf.pdf',
-        fileName: 'management-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Management-brochure.pdf',
+        fileName: 'Management-brochure.pdf',
         fileSize: '2.7 MB'
     },
     {
         name: 'Department of Media Studies',
         abbreviation: 'MED',
         description: 'Journalism, mass communication, digital media, and broadcasting.',
-        pdfUrl: 'pdfs/media-studies-brochure.pdf.pdf',
-        fileName: 'media-studies-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Media_Studies-brochure.pdf',
+        fileName: 'Media_Studies-brochure.pdf',
         fileSize: '3.1 MB'
     },
     {
         name: 'Department of Pharmaceutical Sciences',
         abbreviation: 'PHR',
         description: 'Pharmacy, drug development, and pharmaceutical research programs.',
-        pdfUrl: 'pdfs/pharmaceutical-brochure.pdf.pdf',
-        fileName: 'pharmaceutical-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Pharmacy-brocher.pdf',
+        fileName: 'Pharmacy-brocher.pdf',
         fileSize: '2.8 MB'
     },
     {
         name: 'Department of Physiotherapy',
         abbreviation: 'PHY',
         description: 'Physical therapy, rehabilitation sciences, and sports medicine.',
-        pdfUrl: 'pdfs/physiotherapy-brochure.pdf.pdf',
-        fileName: 'physiotherapy-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Physiotherapy-brochure.pdf',
+        fileName: 'Physiotherapy-brochure.pdf',
         fileSize: '2.4 MB'
     },
     {
         name: 'Department of Public Health',
         abbreviation: 'PUB',
         description: 'Public health policy, epidemiology, and community health programs.',
-        pdfUrl: 'pdfs/public-health-brochure.pdf.pdf',
-        fileName: 'public-health-brochure.pdf.pdf',
+        pdfUrl: 'pdfs/Public health-brochure.pdf',
+        fileName: 'Public health-brochure.pdf',
         fileSize: '2.6 MB'
     }
 ];
